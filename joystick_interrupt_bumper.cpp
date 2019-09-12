@@ -91,46 +91,5 @@ void loop() {
        stato_bumper[2]= 0;
        stato_bumper[3]= 0;
     }
-    
-    
 
-
- /* 
-  
- 
-
-  if (front_back > 516 + threshold){
-    digitalWrite (2,HIGH);
-    digitalWrite (3,LOW);
-    delay (10);
-    digitalWrite (3,HIGH);
-    Serial.println ("impatto posteriore");
-    }else if (front_back < 516 - threshold){
-    digitalWrite (2,LOW);
-    delay (10);
-    digitalWrite (2,HIGH);
-    digitalWrite (3,HIGH);
-    Serial.println ("impatto frontale");
-    }else{
-    digitalWrite (2,HIGH);
-    digitalWrite (3,HIGH);  
-
-     if (left_right > 516 + threshold){
-    digitalWrite (4,HIGH);
-    digitalWrite (5,LOW);
-    delay(10);
-    digitalWrite (5,HIGH);
-    Serial.println ("impatto sinistro");
-    }else if (left_right < 516 - threshold){
-    digitalWrite (4,LOW);
-    delay(10);
-    digitalWrite (4,HIGH);
-    digitalWrite (5,HIGH);
-    Serial.println ("impatto destro");
-    }else{
-    digitalWrite (4,HIGH);
-    digitalWrite (5,HIGH);  
-    } 
-  }
-  */
 }
